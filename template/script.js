@@ -2,6 +2,7 @@
 
 const task = "Example Task";
 const description = "Some description";
+const taskUrl = "";
 let dateCompleted = "2019-07-06";
 
 
