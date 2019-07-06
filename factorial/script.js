@@ -47,8 +47,8 @@ const best = (num) => {
 return factorial; 
 }
 
-//const result = challenge(4);
-const result = best(8);
+const result = challenge(4);
+//const result = best(8);
 
 // Displays the result, task and when it was completed:
 
