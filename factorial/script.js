@@ -12,10 +12,13 @@ let dateCompleted = "2019-07-06";
 const challenge = (num) => {
 
   // get a number, subtract 1, multiply, repeat until the number is 1
+
   let result;
+  
   if (num === 0 || num === 1) {
     result = 1; // mathematical convention
   } else {
+  
     let nextNum = num-1;
     result = num*nextNum; 
   
@@ -23,10 +26,6 @@ const challenge = (num) => {
       
       nextNum = num - index - 2;
       nextNum > 0 ? result = result * nextNum : result = result;
- 
-      if (nextNum === 1) {
-        break;
-      }
   
     }
   }
