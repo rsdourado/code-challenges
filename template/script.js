@@ -1,6 +1,7 @@
 // Define the task and when it was completed:
 
 const task = "Example Task";
+const description = "Some description";
 let dateCompleted = "2019-07-06";
 
 
@@ -12,13 +13,13 @@ const challenge = () => {
   return result;
 }
 
-
+const result = challenge();
 
 // Displays the result, task and when it was completed:
 
 const displayElements = () => {
   const resultContainer = document.getElementById("result-text");
-  const resultNode = document.createTextNode(challenge());
+  const resultNode = document.createTextNode(result);
   resultContainer.appendChild(resultNode);
 
   const taskContainer = document.getElementById("task");
