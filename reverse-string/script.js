@@ -22,7 +22,7 @@ const challenge = (string) => {
 
 }
 
-// best solution from coderbyte:
+// best solutions from coderbyte:
 
 function FirstReverse(str) { 
 
@@ -32,6 +32,12 @@ function FirstReverse(str) {
   }
 
   return newString;
+}
+
+function FirstReverse(str) { 
+  // code goes here  
+  return str.split('').reverse().join(''); 
+         
 }
 
 const result = challenge("hello world!");
