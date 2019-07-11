@@ -1,0 +1,63 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+  font-family: FiraCode;
+  src: url('../assets/FiraCode-Light.ttf')
+}
+
+body {
+  font: 26px/1.5em FiraCode;
+  color: #EA6F76;     
+  background-color: #263238;
+}
+
+main {
+  margin: 0 auto;
+  width: 541px;
+}
+
+h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 90px 0;
+}
+
+.accent {
+  color: #86D8FA;
+}
+
+#result-title {
+  margin: 90px 0 5px 0;
+}
+
+#result-box {
+  background-color: #192227;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  min-height: 420px;
+  margin: 0 0 90px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
