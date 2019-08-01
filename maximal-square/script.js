@@ -17,6 +17,7 @@ let dateCompleted = "2019-07-11";
 // Complete the challenge inside the following funciton and return the result:
 
 const challenge = (strArr) => {
+  console.time('time');
   //Ok, let's brake this problem into smaller chunks.
   //First thing, let's console.log the input so we can see it and think about it better
   // I have a hunch it will be necessary to transform each string in an array, so I have an array of arrays.
@@ -76,12 +77,13 @@ const challenge = (strArr) => {
   }
     
   let result = area;
+  console.timeEnd('time');
   return result;
 }
 
-const result = challenge(["0111", "1111", "1111", "1111"]); // 9
+// const result = challenge(["0111", "1111", "1111", "1111"]); // 9
 // const result = challenge(["0111", "1101", "0111"]); // 1
-// const result = challenge(["10100", "10111", "11111", "10010"]); // 4
+const result = challenge(["10100", "10111", "11111", "10010"]); // 4
 
 // Displays the result, task and when it was completed:
 
